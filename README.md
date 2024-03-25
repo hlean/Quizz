@@ -1,2 +1,2 @@
 # Quizz
- Quizz game about city, countries and flags
+ Quizz game about guess city, countries and flags
