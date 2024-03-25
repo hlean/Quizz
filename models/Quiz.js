@@ -29,7 +29,7 @@ export class Quiz {
     }
 
     isEnded(){
-        return this.questionIndex === 10;
+        return this.questionIndex === 1;
     }
 
     /**

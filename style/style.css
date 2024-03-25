@@ -1,8 +1,9 @@
 /*---GENERAL---*/
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Scribble&display=swap');
+
 *{
     margin: 0px;
     padding: 0px;
-    font-family: monospace;
 }
 a {
     text-decoration: none;
@@ -25,11 +26,12 @@ a {
 
 #title{
     text-align: center;
-    padding: 15px;
+    padding: 25px;
     background-color: #b5e2fa;
-    border-radius: 0px 0px 70px 70px;
+    border-radius: 0px 0px 50px 50px;
     width: 100%;
     margin: auto;
+    font-family: Rubik Scribble;
 }
 
 #section-cards {
@@ -89,16 +91,15 @@ a {
     grid-template-rows: 1fr 3fr 1 fr 4fr;
 }
 
+
 #card img {
     width: 100%;
-    margin-bottom: 20px;
     border-radius: 15px;
 }
 
 #question {
     font-size: 30px;
     text-align: center;
-    margin-bottom: 40px;
 }
 
 #options{
@@ -122,16 +123,10 @@ a {
 }
 
 #player-information {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin-bottom: 30px;
+    font-size: 500%;
+    font-family: Rubik Scribble;
 }
-
-#card h3, #card span{
-    font-family: monospace;
-}
-
-  
+ 
 #wave {
     position: absolute;
     bottom: 0;
@@ -140,17 +135,21 @@ a {
     z-index: -1;
 }
 
+#card h5,#card h2 {
+  margin: auto;
+  font-size: 900%;
+  font-family: Rubik Scribble;
+}
 
 
-
-
+/*CARDS MENU*/
 .card-prueba{
-    --main-color: #0fa3b1;
-    --sub-color: #0fa3b1;
+    --main-color: #579ba1;
+    --sub-color: #579ba1;
     --bg-color: #b5e2fa;
-    --accent-color: #0fa3b1;
+    --accent-color: #579ba1;
     position: relative;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: monospace;
     width: 200px;
     padding: 25px;
     border-radius: 25px;
@@ -191,12 +190,14 @@ a {
     color: black;
     font-weight: 900;
     font-size: 20px;
+    text-align: center;
   }
   
   .card__subtitle {
     color: black;
     font-weight: 600;
     font-size: 12px;
+    padding: 10px;
   }
   
   .card__icon {
@@ -212,28 +213,16 @@ a {
   }
   
   .card__icon g {
-    fill: #323232;
+    fill: #080000;
     cursor: pointer;
   }
   
   .card__icon circle, polyline, line {
-    stroke: #323232;
+    stroke: #080000;
   }
   
   .card-prueba:hover .card__icon {
     transform: rotate(0);
-  }
-  
-  .card-prueba:hover .card__icon circle, .card:hover .card__icon polyline, .card-prueba:hover .card__icon line {
-    stroke: var(--accent-color);
-  }
-  
-  .card-prueba:hover .card__icon g {
-    fill: var(--accent-color);
-  }
-  
-  .card-prueba:hover {
-    box-shadow: 0px 0px 20px -5px #000;
   }
   
   .card-prueba:hover::before {
@@ -241,46 +230,4 @@ a {
     box-shadow: 0px 0px 20px -5px #000;
   }
   
-  /* remove svg from class ="card__img" and last styles below css code before use */
-  .st1 {
-    fill: #fff
-  }
   
-  .st2 {
-    fill: none;
-    stroke: #242c88;
-    stroke-width: 2;
-    stroke-linecap: round;
-    stroke-linejoin: round;
-    stroke-miterlimit: 10
-  }
-  
-  .st7 {
-    fill: #589fff
-  }
-  
-  .st9 {
-    fill: #bc8d66
-  }
-  
-  .st15,.st16 {
-    opacity: .4;
-    fill: #242c88
-  }
-  
-  .st16 {
-    opacity: .2
-  }
-  
-  .st18 {
-    fill: #ffc408
-  }
-  
-  .st53 {
-    fill: none;
-    stroke: #242c88;
-    stroke-width: 1.848;
-    stroke-linecap: round;
-    stroke-linejoin: round;
-    stroke-miterlimit: 10
-  }

@@ -18,7 +18,6 @@ const renderPage = (quiz, ui) => {
         }
     );
         ui.showProgress(quiz.getProgressQuestion());
-        ui.showCorrectAnswers(quiz.getCurrentScore());
     }
 }
 

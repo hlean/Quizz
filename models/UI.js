@@ -33,8 +33,8 @@ export class UI{
 
     showFinalScore(score){
         const quizEndHTML = `
-            <h1>Final result</h1>
-            <h2>Score: ${score}</h2>
+            <h2>Score</h2>
+            <h5>${score}</h5>
         `;
         const element = document.getElementById("card");
         element.innerHTML = quizEndHTML;
@@ -44,10 +44,4 @@ export class UI{
         const roundProgress = document.getElementById("round");
         roundProgress.innerHTML = progress;
     }
-
-    showCorrectAnswers(currentScore){
-        const correctAnswers = document.getElementById("score");
-        correctAnswers.innerHTML = currentScore;
-    }
-
 }
