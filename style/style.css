@@ -11,32 +11,24 @@ a {
 }
 /*---MENU---*/
 
-#main-menu {
-  width: 100vh;
+#content-menu{
+  width: fit-content;
+  height: 100vh;
   margin: auto;
-}
-
-#section-cards{
-  margin-top: 5%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
 }
 
 #title{
     text-align: center;
     padding: 25px;
-    background-color: #b5e2fa;
+    background-color: #5CA8A3;
     border-radius: 0px 0px 50px 50px;
-    width: 100%;
-    margin: auto;
     font-family: Rubik Scribble;
+    margin-bottom: 5%;
 }
 
 #section-cards {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-column-gap: 2rem;
     grid-row-gap: 4rem;
 }
@@ -88,18 +80,29 @@ a {
     text-align: center;
     background-color: #43776B;
     display: grid;
-    grid-template-rows: 1fr 3fr 1 fr 4fr;
+    grid-template-rows: 1fr 1fr 4fr 2fr;
+}
+
+#contenedor-image {
+  width: 100%; /* Ajusta el ancho del contenedor según sea necesario */
+  height: auto; /* Esto permitirá que el contenedor se ajuste dinámicamente según el contenido */
+  display: flex; /* Utilizamos flexbox para organizar las imágenes */
+  justify-content: center; /* Centra las imágenes horizontalmente */
+  align-items: center; /* Centra las imágenes verticalmente */
+}
+
+#contenedor-image img {
+  max-width: 90%; /* Hace que las imágenes se ajusten al ancho del contenedor */
+  height: 80%; /* Mantiene la proporción de aspecto de las imágenes */
 }
 
 
-#card img {
-    width: 100%;
-    border-radius: 15px;
-}
 
 #question {
-    font-size: 30px;
+    font-size: 400%;
     text-align: center;
+    font-family: Rubik Scribble;
+    margin: auto;
 }
 
 #options{
@@ -123,11 +126,12 @@ a {
 }
 
 #player-information {
-    font-size: 500%;
+    font-size: 300%;
     font-family: Rubik Scribble;
+    margin: auto;
 }
  
-#wave {
+.wave {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -144,22 +148,21 @@ a {
 
 /*CARDS MENU*/
 .card-prueba{
-    --main-color: #579ba1;
-    --sub-color: #579ba1;
-    --bg-color: #b5e2fa;
-    --accent-color: #579ba1;
+    --main-color: #cf7d61;
+    --sub-color: #cf7d61;
+    --bg-color: #5CA8A3;
+    --accent-color: #cf7d61;
     position: relative;
     font-family: monospace;
     width: 200px;
     padding: 25px;
     border-radius: 25px;
-    display: flex;
-    flex-direction: column;
     gap: 5px;
     background-color: var(--bg-color);
     transition: all 0.2s;
     box-shadow: 0px 0px 5px -1.5px #000;
     cursor: pointer;
+    margin: auto;
   }
   
   .card-prueba::before {
