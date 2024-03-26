@@ -84,16 +84,17 @@ a {
 }
 
 #contenedor-image {
-  width: 100%; /* Ajusta el ancho del contenedor según sea necesario */
-  height: auto; /* Esto permitirá que el contenedor se ajuste dinámicamente según el contenido */
-  display: flex; /* Utilizamos flexbox para organizar las imágenes */
-  justify-content: center; /* Centra las imágenes horizontalmente */
-  align-items: center; /* Centra las imágenes verticalmente */
+  width: 100%;
+  height: auto; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
 }
 
 #contenedor-image img {
-  max-width: 90%; /* Hace que las imágenes se ajusten al ancho del contenedor */
-  height: 80%; /* Mantiene la proporción de aspecto de las imágenes */
+  max-width: 90%; 
+  height: 80%; 
+  border-radius: 10px;
 }
 
 
