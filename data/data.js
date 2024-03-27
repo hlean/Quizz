@@ -427,157 +427,157 @@ export const data = {
 
   "flags": [
     {
-      "question": "",
+      "question": "Country flag",
       "options": ["France", "Germany", "Italy", "Spain"],
       "correct_answer": "France",
       "image": "../images/flags/fr.svg"
     },
     {
-        "question": "",
+        "question": "Country flag",
         "options": ["Mexico", "Brazil", "Chile", "Chile"],
         "correct_answer": "Brazil",
         "image": "../images/flags/br.svg"
     },
     {
-        "question": "",
+        "question": "Country flag",
         "options": ["Canada", "United Kingdom", "Australia", "United States"],
         "correct_answer": "United States",
         "image": "../images/flags/us.svg"
     },
     {
-        "question": "",
+        "question": "Country flag",
         "options": ["Russia", "Japan", "China", "South Korea"],
         "correct_answer": "Russia",
         "image": "../images/flags/ru.svg"
     },
     {
-        "question": "",
+        "question": "Country flag",
         "options": ["Sri Lanka", "India", "Bangladesh", "Pakistan"],
         "correct_answer": "India",
         "image": "../images/flags/in.svg"
     },
     {
-        "question": "",
+        "question": "Country flag",
         "options": ["Spain", "Italy", "Greece", "Portugal"],
         "correct_answer": "Spain",
         "image": "../images/flags/es.svg"
     },
     {
-        "question": "",
+        "question": "Country flag",
         "options": ["United Kingdom", "Australia", "Canada", "United States"],
         "correct_answer": "Canada",
         "image": "../images/flags/ca.svg"
     },
     {
-        "question": "",
+        "question": "Country flag",
         "options": ["France", "Germany", "Belgium", "Netherlands"],
         "correct_answer": "Germany",
         "image": "../images/flags/de.svg"
     },
     {
-        "question": "",
+        "question": "Country flag",
         "options": ["Finland", "Sweden", "Denmark", "Norway"],
         "correct_answer": "Sweden",
         "image": "../images/flags/se.svg"
     },
     {
-        "question": "",
+        "question": "Country flag",
         "options": ["Saudi Arabia", "Syria", "Iran", "Iraq"],
         "correct_answer": "Iran",
         "image": "../images/flags/ir.svg"
     },
     {
-        "question": "",
+        "question": "Country flag",
         "options": ["Ghana", "Cameroon", "Nigeria", "Ivory Coast"],
         "correct_answer": "Nigeria",
         "image": "../images/flags/ng.svg"
     },
     {
-        "question": "",
+        "question": "Country flag",
         "options": ["Romania", "Turkey", "Bulgaria", "Greece"],
         "correct_answer": "Turkey",
         "image": "../images/flags/tr.svg"
     },
     {
-        "question": "",
+        "question": "Country flag",
         "options": ["Indonesia", "Thailand", "Vietnam", "Malaysia"],
         "correct_answer": "Indonesia",
         "image": "../images/flags/id.svg"
     },
     {
-        "question": "",
+        "question": "Country flag",
         "options": ["Mexico", "El Salvador", "Guatemala", "Honduras"],
         "correct_answer": "Mexico",
         "image": "../images/flags/mx.svg"
     },
     {
-        "question": "",
+        "question": "Country flag",
         "options": ["Cyprus", "Italy", "Greece", "Malta"],
         "correct_answer": "Italy",
         "image": "../images/flags/it.svg"
     },
     {
-        "question": "",
+        "question": "Country flag",
         "options": ["South Korea", "Japan", "North Korea", "China"],
         "correct_answer": "South Korea",
         "image": "../images/flags/kr.svg"
     },
     {
-        "question": "",
+        "question": "Country flag",
         "options": ["Papua New Guinea", "Fiji", "New Zealand", "Australia"],
         "correct_answer": "Australia",
         "image": "../images/flags/au.svg"
     },
     {
-        "question": "",
+        "question": "Country flag",
         "options": ["Ukraine", "Latvia", "Belarus", "Moldova"],
         "correct_answer": "Ukraine",
         "image": "../images/flags/ua.svg"
     },
     {
-        "question": "",
+        "question": "Country flag",
         "options": ["Thailand", "Vietnam", "Cambodia", "Laos"],
         "correct_answer": "Vietnam",
         "image": "../images/flags/vn.svg"
     },
     {
-        "question": "",
+        "question": "Country flag",
         "options": ["Luxembourg", "Netherlands", "Switzerland", "Belgium"],
         "correct_answer": "Netherlands",
         "image": "../images/flags/nl.svg"
     },
     {
-        "question": "",
+        "question": "Country flag",
         "options": ["Denmark", "Norway", "Sweden", "Finland"],
         "correct_answer": "Sweden",
         "image": "../images/flags/se.svg"
     },
     {
-        "question": "",
+        "question": "Country flag",
         "options": ["Egypt", "Turkey", "Greece", "Cyprus"],
         "correct_answer": "Greece",
         "image": "../images/flags/gr.svg"
     },
     {
-        "question": "",
+        "question": "Country flag",
         "options": ["South Africa", "Kenya", "Egypt", "Nigeria"],
         "correct_answer": "South Africa",
         "image": "../images/flags/za.svg"
     },
     {
-        "question": "",
+        "question": "Country flag",
         "options": ["Scotland", "Wales", "Northern Ireland", "Ireland"],
         "correct_answer": "Ireland",
         "image": "../images/flags/ie.svg"
     },
     {
-        "question": "",
+        "question": "Country flag",
         "options": ["Saudi Arabia", "Iraq", "Syria", "Iran"],
         "correct_answer": "Iran",
         "image": "../images/flags/ir.svg"
     },
     {
-        "question": "",
+        "question": "Country flag",
         "options": ["Argentina", "Paraguay", "Bolivia", "Uruguay"],
         "correct_answer": "Argentina",
         "image": "../images/flags/ar.svg"

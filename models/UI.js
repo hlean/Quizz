@@ -3,7 +3,7 @@ export class UI{
 
     showQuestion(text){
         const questionTitle = document.getElementById("question");
-        questionTitle.innerHTML = text;
+            questionTitle.innerHTML = text;
     }
 
     showImage(image){
@@ -33,8 +33,8 @@ export class UI{
 
     showFinalScore(score){
         const quizEndHTML = `
-            <h2>Score</h2>
-            <h5>${score}</h5>
+            <h2><b>Score</b></h2>
+            <h2><b>${score}</b></h2>
         `;
         const element = document.getElementById("card");
         element.innerHTML = quizEndHTML;

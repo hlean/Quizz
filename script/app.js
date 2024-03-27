@@ -10,7 +10,10 @@ const renderPage = (quiz, ui) => {
     }else{
         let index = quiz.getQuestionsIndex()
 
-        ui.showQuestion(index.question);
+        if(index.question != ""){
+            ui.showQuestion(index.question);
+        }
+        
         ui.showImage(index.image);
         ui.showOptions(index.options, (currentOption)=>{
             quiz.guess(currentOption)
