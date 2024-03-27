@@ -29,13 +29,7 @@ a{
     height: 70%;
 }
 .option-button{
-    display: inline-block;
-    text-align: center;
-    border-radius: 6px;
-    padding: 15px;
     cursor: pointer;
-    font-size: 24px;
-    background-color: #32500c;
 }
 .option-button:hover{
     background-color: #95715A;
